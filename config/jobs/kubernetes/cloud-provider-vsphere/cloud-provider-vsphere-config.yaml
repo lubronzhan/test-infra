@@ -260,6 +260,8 @@ presubmits:
     branches:
     - ^master$
     - ^release-.*$
+    skip_branches:
+    - ^release-1.22$
     path_alias: k8s.io/cloud-provider-vsphere
     skip_submodules: true
     always_run: false
